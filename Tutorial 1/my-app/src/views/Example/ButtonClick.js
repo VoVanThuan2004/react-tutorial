@@ -9,7 +9,7 @@ class ButtonClick extends React.Component {
                 <button onClick={showToast}>Click me</button>
                 <p>Congratulation for you</p>
 
-                <ToastContainer/>
+                <ToastContainer />
             </div>
         )
     }
