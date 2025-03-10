@@ -1,7 +1,9 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import MyComponent from './Example/MyComponent';
+import ButtonClick from './Example/ButtonClick';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
@@ -15,8 +17,12 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React Tutorial  
         </a>
+
+        <b><MyComponent/></b>
+        <br></br>
+        <ButtonClick/>
       </header>
     </div>
   );
