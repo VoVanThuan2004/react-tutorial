@@ -3,6 +3,9 @@ import { showToast } from "./ShowToast";
 import { ToastContainer } from "react-toastify";
 
 class ButtonClick extends React.Component {
+    /* 
+        Tao component cho nut Button -> Click vao Button -> Hien thong bao
+    */
     render() {
         return (
             <div>
