@@ -22,6 +22,7 @@ class MyComponent extends React.Component {
             <>
                 <div className="First">Hello {this.state.name}</div>
                 <div className="Second">{this.state.university}</div>
+
                 
                 <input type="text" value={this.state.name} placeholder="Text message"
                     onChange={(event) => this.handOnChange(event)}
@@ -32,4 +33,3 @@ class MyComponent extends React.Component {
 }
 
 export default MyComponent
-
