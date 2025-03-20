@@ -3,6 +3,7 @@ import './App.scss';
 import MyComponent from './Example/MyComponent';
 import ButtonClick from './Example/ButtonClick';
 import FormInput from './Example/FormInput';
+import Show_Hide from './Example/Show_Hide';
 
 const App = () => {
   return (
@@ -27,7 +28,9 @@ const App = () => {
 
         <br></br>
 
-        <FormInput />
+        {/* <FormInput /> */}
+
+        <Show_Hide />
       </header>
     </div>
   );

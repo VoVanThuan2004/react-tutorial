@@ -27,11 +27,12 @@ class FormInput extends React.Component {
             return;
         }
 
+        
+        alert(`${this.state.username}` + ` ${this.state.password} login successfully`);
         this.setState({
             username: "",
             password: "",
         })
-        alert(`${this.state.username}` + ` ${this.state.password} login successfully`);
     }
 
 
