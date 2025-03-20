@@ -15,8 +15,6 @@ class MyComponent extends React.Component {
     }
 
     render() {
-        // // Tao bien
-        // let name = "Thuan"
         return (
             // Cach cho component return ve 2 phan tu doc lap
             <>

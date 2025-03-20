@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.scss';
 import MyComponent from './Example/MyComponent';
 import ButtonClick from './Example/ButtonClick';
+import FormInput from './Example/FormInput';
 
 const App = () => {
   return (
@@ -20,9 +21,13 @@ const App = () => {
           Learn React Tutorial  
         </a>
 
-        <b><MyComponent/></b>
+        {/* <b><MyComponent/></b> */}
         <br></br>
         <ButtonClick/>
+
+        <br></br>
+
+        <FormInput />
       </header>
     </div>
   );

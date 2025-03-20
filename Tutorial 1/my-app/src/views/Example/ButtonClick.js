@@ -6,14 +6,25 @@ class ButtonClick extends React.Component {
     /* 
         Tao component cho nut Button -> Click vao Button -> Hien thong bao
     */
+
+    handleOnClick = () => {
+        alert("Show Alert");
+    }
+
     render() {
         return (
-            <div>
+           <>
+             <div>
                 <button onClick={showToast}>Click me</button>
                 <p>Congratulation for you</p>
 
                 <ToastContainer />
             </div>
+
+            <div>
+                <button onClick={this.handleOnClick}>Show Alert</button>
+            </div>
+           </>
         )
     }
 }
